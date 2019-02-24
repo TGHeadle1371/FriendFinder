@@ -8,20 +8,20 @@ var app = express();
 var PORT = process.env.PORT || 3000;
 
 // Sets up the Express app to handle data parsing
-// app.use(express.urlencoded({
-//     extended: true
-// }));
-// app.use(express.json());
+app.use(express.urlencoded({
+    extended: true
+}));
+app.use(express.json());
 
 // Basic route that sends the user first to the Survey Page
 app.get("/survey", function (req, res) {
-    res.sendFile(path.join(__dirname, "survey.html"));
+    res.sendFile(path.join(__dirname, "/app/public/survey.html"));
 });
 
 
 // Basic route that sends the user first to the AJAX Page
 app.get("/", function (req, res) {
-    res.sendFile(path.join(__dirname, "home.html"));
+    res.sendFile(path.join(__dirname, "/app/public/home.html"));
 });
 
 
