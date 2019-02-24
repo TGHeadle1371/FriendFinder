@@ -5,7 +5,7 @@ var path = require('path');
 // Sets up the Express App
 // =============================================================
 var app = express();
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 8080;
 
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({
@@ -23,6 +23,13 @@ app.get("/survey", function (req, res) {
 app.get("/", function (req, res) {
     res.sendFile(path.join(__dirname, "/app/public/home.html"));
 });
+
+
+
+// ==============================Require routing========================================
+
+require('./app/routing/apiRoutes.js')(app);
+require('./app/routing/htmlRoutes.js')(app);
 
 
 // Starts the server to begin listening
