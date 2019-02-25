@@ -22,8 +22,8 @@
 -   The `apiRoutes.js` file includes two routes:
     _ A GET route with the url `/api/friends`. This will be used to display a JSON of all possible friends
     _ A POST route `/api/friends`. This will be used to handle incoming survey results. This route will also be used to handle the compatibility logic.
+
     ![API](./app/public/img/API.png)
-    ![Finding](./app/public/img/findingPartner.png)
 
 *   Compatibility will be determined based on the following.
     _ Each user's results is converted into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]).
