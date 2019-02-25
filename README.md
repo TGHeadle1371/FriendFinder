@@ -2,12 +2,12 @@
 
 ### Compatibility based application
 
-![Home](./img/homePage.png)
+![Home](./app/public/img/homePage.png)
 
 -   The application will take in results from users' surveys then compare their results against all other users who have completed it. The application will then display the name and picture of the user with the best match overall to find you a suitable climbing partner!
 
 *   The survey has 10 questions, answers to the survey questions are on a scale of 1-5 based on how much the user disagrees (1) or agrees (2).
-    ![survey](./img/surveyForm.png)
+    ![survey](./app/public/img/surveyForm.png)
 
 ## Technical details
 
@@ -21,8 +21,8 @@
 -   The `apiRoutes.js` file includes two routes:
     _ A GET route with the url `/api/friends`. This will be used to display a JSON of all possible friends
     _ A POST route `/api/friends`. This will be used to handle incoming survey results. This route will also be used to handle the compatibility logic.
-    ![API](./img/API.png)
-    ![Finding](./img/findingPartner.png)
+    ![API](./app/public/img/API.png)
+    ![Finding](./app/public/img/findingPartner.png)
 
 *   Compatibility will be determined based on the following.
     _ Each user's results is converted into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]).
@@ -37,4 +37,4 @@
 *   Once the closest match has been determined, it will display the result back to the user in the form of a modal pop-up.
 
 -   The result will display both the name and picture of the closest match.
-    ![Partner](./img/yourPartner.png)
+    ![Partner](./app/public/img/yourPartner.png)
