@@ -38,4 +38,5 @@
 *   Once the closest match has been determined, it will display the result back to the user in the form of a modal pop-up.
 
 -   The result will display both the name and picture of the closest match.
+
     ![Partner](./app/public/img/yourPartner.png)
