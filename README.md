@@ -33,7 +33,7 @@
     _ User 2: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
     _ Total Difference: 2 + 1 + 2 = 5
 
-        	* The person with the closest match will be the one with the "least" amount of difference.
+*   The person with the closest match will be the one with the "least" amount of difference.
 
 *   Once the closest match has been determined, it will display the result back to the user in the form of a modal pop-up.
 
