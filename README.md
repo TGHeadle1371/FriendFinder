@@ -7,7 +7,8 @@
 -   The application will take in results from users' surveys then compare their results against all other users who have completed it. The application will then display the name and picture of the user with the best match overall to find you a suitable climbing partner!
 
 *   The survey has 10 questions, answers to the survey questions are on a scale of 1-5 based on how much the user disagrees (1) or agrees (2).
-    ![survey](./app/public/img/surveyForm.png)
+
+![survey](./app/public/img/surveyForm.png)
 
 ## Technical details
 
