@@ -1,5 +1,7 @@
 var express = require('express');
 var path = require('path');
+var bodyParser = require('body-parser');
+
 
 
 // Sets up the Express App
@@ -12,6 +14,11 @@ app.use(express.urlencoded({
     extended: true
 }));
 app.use(express.json());
+
+app.use(bodyParser.text());
+app.use(bodyParser.json({
+    type: 'application/vnd.api+json'
+}));
 
 // Basic route that sends the user first to the Survey Page
 app.get("/survey", function (req, res) {
