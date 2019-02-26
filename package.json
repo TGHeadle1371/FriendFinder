@@ -19,7 +19,7 @@
   "homepage": "https://github.com/TGHeadle1371/FriendFinder#readme",
   "devDependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "express": "file:node_modules/express",
     "path": "^0.12.7"
   },
   "dependencies": {}
