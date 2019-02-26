@@ -1,6 +1,6 @@
 # Friend Finder - Node and Express deployed on Heroku
 
-![Live Site](https://git.heroku.com/stormy-escarpment-19310.git)
+![Live Site](https://stormy-escarpment-19310.herokuapp.com/home.html)
 
 ### Compatibility based application
 
