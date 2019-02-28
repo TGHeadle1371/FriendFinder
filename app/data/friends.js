@@ -4,7 +4,7 @@ var friends = [{
     scores: [5, 3, 5, 3, 5, 5, 5, 5, 5, 2]
 }, {
     name: "Cedar Wright",
-    photo: "https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn2.theinertia.com%2Fwp-content%2Fuploads%2F2015%2F09%2FCedar.jpg&f=1",
+    photo: "https://pbs.twimg.com/profile_images/533456712842625024/uZx6IZtK_400x400.jpeg",
     scores: [2, 5, 3, 4, 5, 3, 1, 3, 2, 4]
 }, {
     name: "Emily Harrington",

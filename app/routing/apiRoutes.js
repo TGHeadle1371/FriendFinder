@@ -1,13 +1,14 @@
+// Requirements
 var path = require("path");
 var friends = require("../data/friends");
-
+//Export the function (app)
 module.exports = function (app) {
-
+    // Get the friends, log read, return json
     app.get('/api/friends', function (req, res) {
         console.log("Reading API");
         return res.json(friends);
     });
-
+    // Post new friend
     app.post("/api/new", function (req, res) {
         //setup variables for finding match
         var newFriend = req.body;
@@ -30,6 +31,7 @@ module.exports = function (app) {
                 index = i;
             }
         }
+        // Log the new match, json friend index
         console.log('Best Match:', friends[index]);
         friends.push(newFriend);
         res.json(friends[index]);
