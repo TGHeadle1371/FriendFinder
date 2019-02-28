@@ -28,15 +28,16 @@
 
 </head>
 
-<body id="background">
+<body id="background" style="background-color:rgb(46, 103, 138); color: white;">
 
     <div class="container">
-        <div class="jumbotron" align="center">
-            <h1><span class="glyphicon glyphicon-th-list"></span> Survey</h1>
+        <div class="jumbotron" align="center" style="color:rgb(46, 103, 138)">
+            <h1><span class=" glyphicon
+            glyphicon-th-list"></span> Survey</h1>
             <hr>
             <h2>Answer the questions below to find a climbing partner!</h2>
             <br>
-            <p><a class="btn btn-warning btn-lg" href="home.html" role="button"><span class="glyphicon glyphicon-home"
+            <p><a class="btn btn-warning btn-lg text-white" href="home.html" role="button"><span class="glyphicon glyphicon-home"
                         aria-hidden="true"></span> Home</a></p>
         </div>
         <hr>
@@ -79,7 +80,7 @@
 
                             <h4>Question 1</h4>
                             <h5>Your mind is always buzzing with unexplored crags and mountain ranges.</h5>
-                            <select class="chosen-select" id="q1">
+                            <select class="chosen-select text-warning" id="q1">
                                 <option value="select">Select an Option</option>
                                 <option value="1">1 (Nahh wayy)</option>
                                 <option value="2">2</option>
@@ -91,7 +92,7 @@
                             <h4>Question 2</h4>
                             <h5>Generally speaking, when on an adventure, you rely more on your experience than your
                                 imagination.</h5>
-                            <select class="chosen-select" id="q2">
+                            <select class="chosen-select text-warning" id="q2">
                                 <option value="select">Select an Option</option>
                                 <option value="1">1 (Nahh wayy)</option>
                                 <option value="2">2</option>
@@ -102,7 +103,7 @@
                             <hr>
                             <h4>Question 3</h4>
                             <h5>You find it easy to stay relaxed and focused even when there is some exposure.</h5>
-                            <select class="chosen-select" id="q3">
+                            <select class="chosen-select text-warning" id="q3">
                                 <option value="select">Select an Option</option>
                                 <option value="1">1 (Nahh wayy)</option>
                                 <option value="2">2</option>
@@ -113,7 +114,7 @@
                             <hr>
                             <h4>Question 4</h4>
                             <h5>You rarely do something just out of your limitations.</h5>
-                            <select class="chosen-select" id="q4">
+                            <select class="chosen-select text-warning" id="q4">
                                 <option value="select">Select an Option</option>
                                 <option value="1">1 (Nahh wayy)</option>
                                 <option value="2">2</option>
@@ -124,7 +125,7 @@
                             <hr>
                             <h4>Question 5</h4>
                             <h5>People can rarely upset you.</h5>
-                            <select class="chosen-select" id="q5">
+                            <select class="chosen-select text-warning" id="q5">
                                 <option value="select">Select an Option</option>
                                 <option value="1">1 (Nahh wayy)</option>
                                 <option value="2">2</option>
@@ -135,7 +136,7 @@
                             <hr>
                             <h4>Question 6</h4>
                             <h5>It is often difficult for you to relate to other people’s objectives.</h5>
-                            <select class="chosen-select" id="q6">
+                            <select class="chosen-select text-warning" id="q6">
                                 <option value="select">Select an Option</option>
                                 <option value="1">1 (Nahh wayy)</option>
                                 <option value="2">2</option>
@@ -146,7 +147,7 @@
                             <hr>
                             <h4>Question 7</h4>
                             <h5>In a discussion, sending should be more important than people’s sensitivities.</h5>
-                            <select class="chosen-select" id="q7">
+                            <select class="chosen-select text-warning" id="q7">
                                 <option value="select">Select an Option</option>
                                 <option value="1">1 (Nahh wayy)</option>
                                 <option value="2">2</option>
@@ -157,7 +158,7 @@
                             <hr>
                             <h4>Question 8</h4>
                             <h5>You rarely get carried away by climbing fantasies and trip ideas.</h5>
-                            <select class="chosen-select" id="q8">
+                            <select class="chosen-select text-warning" id="q8">
                                 <option value="select">Select an Option</option>
                                 <option value="1">1 (Nahh wayy)</option>
                                 <option value="2">2</option>
@@ -169,7 +170,7 @@
                             <h4>Question 9</h4>
                             <h5>You think that every national park should be respected regardless of whether they are
                                 supported by Trump or not.</h5>
-                            <select class="chosen-select" id="q9">
+                            <select class="chosen-select text-warning" id="q9">
                                 <option value="select">Select an Option</option>
                                 <option value="1">1 (Nahh wayy)</option>
                                 <option value="2">2</option>
@@ -180,7 +181,7 @@
                             <hr>
                             <h4>Question 10</h4>
                             <h5>You feel more energetic while sending with a group of people.</h5>
-                            <select class="chosen-select" id="q10">
+                            <select class="chosen-select text-warning" id="q10">
                                 <option value="select">Select an Option</option>
                                 <option value="1">1 (Nahh wayy)</option>
                                 <option value="2">2</option>
@@ -190,13 +191,13 @@
                             </select>
                         </form>
                         <br>
-                        <button type="submit" class="btn btn-primary btn-md" id="add-btn"><span class="glyphicon glyphicon-ok-sign"
+                        <button type="submit" class="btn btn-warning text-white btn-md mb-3" id="add-btn"><span class="glyphicon glyphicon-ok-sign"
                                 aria-hidden="true"></span> Send it </button>
                     </div>
                 </div>
             </div>
         </div>
-        <p><a href="/api/friends">API Climber List</a> | <a href="https://github.com/tgheadle1371/FriendFinder">GitHub
+        <p><a style="color: white;" href="/api/friends">API Climber List</a> | <a style="color: white;" href="https://github.com/tgheadle1371/FriendFinder">GitHub
                 Repo</a></p>
     </div>
 

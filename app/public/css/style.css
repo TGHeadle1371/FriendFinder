@@ -1,3 +1,7 @@
+.container {
+    background-color: black;
+}
+
 p {
     margin-top: 10px;
 }
@@ -7,6 +11,6 @@ p {
     align-content: center;
 }
 
-.caption text-center {
+.caption {
     padding-bottom: 10px;
 }
