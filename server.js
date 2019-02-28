@@ -13,8 +13,11 @@ app.use(express.urlencoded({
     extended: true
 }));
 app.use(express.json());
+// Tells express to include any static files in the folder other than html
+app.use(express.static(__dirname + '/app/public'));
 
 app.use(bodyParser.text());
+
 app.use(bodyParser.json({
     type: 'application/vnd.api+json'
 }));
