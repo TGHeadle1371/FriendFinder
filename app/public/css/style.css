@@ -2,6 +2,14 @@ p {
     margin-top: 10px;
 }
 
+select {
+    background-color: rgb(147, 146, 146);
+}
+
+.jumbotron {
+    color: rgb(46, 103, 138);
+}
+
 .modal-body {
     padding: 20px;
     align-content: center;
